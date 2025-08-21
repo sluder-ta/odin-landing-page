@@ -3,60 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Landing Page</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="images/plane-icon.ico">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        <div>Header Logo</div>
-        <div>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
+        <div id="header-logo">Header Logo</div>
+        <ul>
+            <li><a>Header Link 1</a></li>
+            <li><a>Header Link 2</a></li>
+            <li><a>Header Link 3</a></li>
+        </ul>       
     </div>
-    <div class="hero">
-        <div class="hero-text">
+    <div class="section first">
+        <div class="container">
             <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <div class="text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
             <button>Sign up</button>
         </div>
-        <div class="hero-image">
-            <p>this is a placeholder for an image</p>
+        <img class="image" alt="this is a placeholder for an image">
+    </div>
+    <div class="section second">
+        <h2>Some random information.</h2>
+        <div class="container">
+            <div class="info">
+                <img alt="still no image">
+                <div class="text">this is some subtext under an image</div>
+            </div>
+            <div class="info">
+                <img alt="still no image">
+                <div class="text">this is some subtext under an image</div>
+            </div>
+            <div class="info">
+                <img alt="still no image">
+                <div class="text">this is some subtext under an image</div>
+            </div>
+            <div class="info">
+                <img alt="still no image">
+                <div class="text">this is some subtext under an image</div>
+            </div>
         </div>
     </div>
-    <div class="center-cards">
-        <h2>Some random information.</h2>
-        <div class="card">
-            <div class="card-image"></div>
-            <div class="card-text">this is some subtext under an illustration or image</div>
+    <div class="section third">
+        <div class="quote">This is an inspiring quote, or a tstimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+        <div class="author">- Thor, God of Thunder</div>
+    </div>
+    <div class="section fourth">
+        <div class="container">
+            <div class="contact">
+                <h3>Call to action! It's time!</h3>
+                <div class="text">Sign up for our product by clicking that button over there!</div>
+            </div>
+            <button>Sign up</button>
         </div>
-        <div class="card">
-            <div class="card-image"></div>
-            <div class="card-text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="card">
-            <div class="card-image"></div>
-            <div class="card-text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="card">
-            <div class="card-image"></div>
-            <div class="card-text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="quote-section">
-            <p>This is an inspring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <h3>- Thor, God of Thunder</h3>
-        </div>
-        <div class="call-to-action">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button class="call-to-action-button">Sign up</button>
-        </div>
-        <div class="footer">
-            <p>Copyright &copy; The Odin Project 2025</p>
-        </div>
+    </div>
+    <div class="footer">
+        <div class="text">Copyright &copy; The Odin Project 2025</div>
     </div>
 </body>
 </html>
